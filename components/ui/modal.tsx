@@ -41,9 +41,9 @@ export const Modal: React.FC<ModalProps> = ({
         <div>{children}</div>
         <DialogFooter>
           <Button variant="outline" onClick={onClose}>
-            Cancelar
+            Cancel
           </Button>
-          <Button type="submit">Continuar</Button>
+          <Button type="submit">Continue</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>
